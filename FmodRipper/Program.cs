@@ -37,7 +37,7 @@ if (FsbLoader.TryLoadFsbFromByteArray(bankData, out FmodSoundBank? bank))
             try
             {
                 using FileStream sampleFile = File.Create(samplePath);
-                await sampleFile.WriteAsync(sampleData, 0, sampleData.Length);
+                await sampleFile.WriteAsync(sampleData);
                 Console.WriteLine($"Successfully ripped to {samplePath}");
             }
             catch (Exception ex)
