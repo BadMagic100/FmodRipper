@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <PackageReference Include="Fmod5Sharp" Version="3.0.1" />
+    <PackageReference Include="Microsoft.NET.ILLink.Tasks" Version="8.0.19" />
   </ItemGroup>
 
 </Project>
